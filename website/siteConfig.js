@@ -11,35 +11,37 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'GreenShoot Labs',
+    caption: 'OpenDialog',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: 'open-dialog-docs/img/greenshoot.png',
-    infoLink: 'https://www.greenshootlabs.com',
+    infoLink: 'https://www.opendialog.ai',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'OpenDialog', // Title for your website.
-  tagline: 'Conversation Management Framework',
-  url: 'https://greenshootlabs.github.io', // Your website URL
-  baseUrl: '/OpenDialogDocs/', // Base URL for your project */
+  title: 'OpenDialog - Conversation Management Platform', // Title for your website.
+  tagline: 'Conversation Management Platform',
+  url: 'https://opendialogai.github.io', // Your website URL
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
   projectName: 'OpenDialogDocs',
-  organizationName: 'greenshootlabs',
+  organizationName: 'opendialogai',
+  cname: 'docs.opendialog.ai',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'conversational-applications', label: 'Docs'},
+    {doc: 'what_is_open_dialog', label: 'Docs'},
     {blog: true, label: 'Blog'},
+      {href: "https://github.com/opendialogai", label: "Github"}
   ],
 
   // If you have users set above, you add it here:
@@ -52,7 +54,7 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
+    primaryColor: '#1b212a',
     secondaryColor: '#205C3B',
   },
 
@@ -99,6 +101,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+    gaTrackingId:'UA-105442123-5',
 };
 
 module.exports = siteConfig;

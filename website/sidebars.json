@@ -1,11 +1,26 @@
 {
   "docs": {
-    "Core Ideas": [
-    	"conversational-applications", 
-    	"conversational-model", 
-    	"conversation-markup"
+  	"Introduction" : [
+  		"what_is_open_dialog",
+      "opendialog_architecture"
+  	],
+    "Designing Conversations": [
+    	"conversational_applications",
+    	"conversational_model"
    	],
-   	"Defining Conversations" : [
-  	  "conversation-markup"    ]
+    "Installing OpenDialog": [
+   	  "installing_opendialog",
+      "upgrading_opendialog"
+   	],
+    "Working with OpenDialog": [
+      "attributes",
+      "cdl",
+      "creating_a_conversation",
+      "adding_a_message",
+      "message_markup",
+      "building_an_interpreter",
+      "building_an_action",
+      "webchat_api"
+    ]
   }
 }

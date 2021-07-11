@@ -37,8 +37,8 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('conversational-applications')}>
-              Core Ideas
+            <a href={this.docUrl('what_is_open_dialog')}>
+              Docs
             </a>
           </div>
           <div>
@@ -53,11 +53,11 @@ class Footer extends React.Component {
           <div>
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/greenshootlabs">Coming soon on GitHub</a>
+            <a href="https://github.com/opendialogai">Github</a>
           </div>
         </section>
 
-        <section className="copyright">OpenDialog is created by <a href="https://greenshootlabs.com">GreenShoot Labs</a></section>
+        <section className="copyright"><a href="https://opendialog.ai">OpenDialog</a> is created by <a href="https://greenshootlabs.com">GreenShoot Labs</a></section>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
